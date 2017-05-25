@@ -1,0 +1,28 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+group = 'Bank Application'
+version = '0.0.1-SNAPSHOT'
+
+description = 'Bank Application Using Gradle'
+
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+  maven{ url "https://repo.maven.apache.org/maven2/" }
+}
+
+dependencies {
+testCompile 'junit:junit:4.12'
+testCompile 'org.mockito:mockito-core:1.10.19'
+}
+
+//Wrapper task for Gradle Version
+task wrapper(type: Wrapper){
+	gradleVersion = '2.6'
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.cap.service.test.AccountServiceTestCase" tests="8" skipped="2" failures="0" errors="0" timestamp="2017-05-25T13:28:31" hostname="DIN76000009" time="0.045">
+  <properties/>
+  <testcase name="test_AddAccount_with_null_Customer" classname="org.cap.service.test.AccountServiceTestCase" time="0.003"/>
+  <testcase name="test_addAccount_with_invalid_amount" classname="org.cap.service.test.AccountServiceTestCase" time="0.004"/>
+  <testcase name="test_myLoop" classname="org.cap.service.test.AccountServiceTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test_AddNumbers" classname="org.cap.service.test.AccountServiceTestCase" time="0.0"/>
+  <testcase name="test_AddAccount_with_null_Customer" classname="org.cap.service.test.AccountServiceTestCase" time="0.0"/>
+  <testcase name="test_addAccount_with_invalid_amount" classname="org.cap.service.test.AccountServiceTestCase" time="0.001"/>
+  <testcase name="test_myLoop" classname="org.cap.service.test.AccountServiceTestCase" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="test_AddNumbers" classname="org.cap.service.test.AccountServiceTestCase" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
